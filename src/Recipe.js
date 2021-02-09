@@ -2,7 +2,7 @@ import React from 'react';
 import { recipeArray } from './data.js';
 
 const recipeItem = recipeArray.map(
-    item => (<li className='ingredient'>{item}</li>)
+    item => (<li className='ingredient'>{item.amount} {item.ingredient}</li>)
 )
 
 export default class Recipe extends React.Component {

@@ -1,12 +1,46 @@
-export const recipeArray = ['1 1 / 2 cups Milk',
-    '1 1 / 2 cups Heavy Cream',
-    '1 / 2 cup Mascapone',
-    '1 / 3 cup Granulated Sugar',
-    '1 / 2 teaspoon Pink Salt',
-    '2 Egg Yolks',
-    '1 pound Black Mission Figs',
-    '1 Lemon, juiced',
-    '1 / 2 cup Brown Sugar',
-    '2 tablespoons Butter',
-    '2 - 4 tablespoons Water',
-    '1 cup Honey Roasted Pecans, roughly chopped',];
+export const recipeArray = [
+    {
+        amount: '1 1/2 cups',
+        ingredient: 'Milk',
+    },
+    {
+        amount: '1 1/2 cups',
+        ingredient: 'Heavy Cream',
+    },
+    {
+        amount: '1/2 cup',
+        ingredient: 'Mascarpone',
+    },
+    {
+        amount: '1/3 cup',
+        ingredient: 'Granulated Sugar',
+    },
+    {
+        amount: '1 1/2 tsp',
+        ingredient: 'Pink Salt',
+    },
+    {
+        amount: '2',
+        ingredient: 'Egg Yolks',
+    },
+    {
+        amount: '1lb',
+        ingredient: 'Black Mission Figs',
+    },
+    {
+        amount: '1',
+        ingredient: 'Lemon, juiced',
+    },
+    {
+        amount: '1/2 cup',
+        ingredient: 'Brown Sugar',
+    },
+    {
+        amount: '2 - 4 Tbsp',
+        ingredient: 'Water',
+    },
+    {
+        amount: '1 cup',
+        ingredient: 'Honey Roasted Pecans, roughly chopped',
+    },
+];
