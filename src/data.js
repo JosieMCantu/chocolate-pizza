@@ -1,0 +1,12 @@
+export const recipeArray = ['1 1 / 2 cups Milk',
+    '1 1 / 2 cups Heavy Cream',
+    '1 / 2 cup Mascapone',
+    '1 / 3 cup Granulated Sugar',
+    '1 / 2 teaspoon Pink Salt',
+    '2 Egg Yolks',
+    '1 pound Black Mission Figs',
+    '1 Lemon, juiced',
+    '1 / 2 cup Brown Sugar',
+    '2 tablespoons Butter',
+    '2 - 4 tablespoons Water',
+    '1 cup Honey Roasted Pecans, roughly chopped',];
