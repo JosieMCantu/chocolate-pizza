@@ -2,7 +2,7 @@ import React from 'react';
 import { recipeArray } from './data.js';
 
 const recipeItem = recipeArray.map(
-    item => (<li>{item}</li>)
+    item => (<li className='ingredient'>{item}</li>)
 )
 
 export default class Recipe extends React.Component {
@@ -12,7 +12,7 @@ export default class Recipe extends React.Component {
             <div style={{
                 backgroundImage: `url('list-bg.png')`
             }} className="recipe-list" >
-                <ul>{recipeItem}</ul>
+                <ul className='recipe-list'>{recipeItem}</ul>
             </div>
 
         )

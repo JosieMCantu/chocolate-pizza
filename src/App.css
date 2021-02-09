@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
   width: 100%;
+  padding: 10px;
 }
 header {
   display: flex;
@@ -11,15 +12,88 @@ img {
 .delicious {
   font-size: 2rem;
   font-family: cursive;
+  margin-bottom: -5px;
 }
 .header-icons{
   display: flex;
-  justify-content: space-between;
-  align-self: flex-end;
-  justify-self: flex-end;
-  width: 200px;
+  align-self: center;
+  width: 100%;
   height: 50px;
+  justify-content: flex-end;
 }
+.divider {
+  background-color: gray;
+  height: 5px;
+  width: 100%;
+}
+
+.icons {
+  margin: 2px;
+}
+
+.class-logo {
+  height: 75px;
+  width: 350px;
+}
+
+header p {
+  margin: 0px;
+}
+
+.delicious-sub {
+  font-size: .75rem;
+}
+
+.top-logo {
+  margin-right: 5px;
+}
+
+.chocolate-pizza {
+  width: 100%;
+}
+
+.recipe-name {
+  width: 40%;
+}
+
+.print {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.title-section {
+  display: flex;
+  align-items: flex-end;
+  height: 120px;
+}
+
+main h2, main h3 {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.very-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .recipe-list {
-  
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.ingredient {
+  width: 40%;
+}
+.ingredient:active {
+  list-style-type: '✅';
 }
